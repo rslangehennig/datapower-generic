@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Service uri="/esbgateway/Alerts/AlertDeliveryReceiver" messagetype="XML">
+	<Backendinfo port="9346" host="@@ALERTS_ALERTDELIVERYRECEIVER_HOST@@" uri="esbapi/Alerts/AlertDeliveryReceiver/V1/deliverAlert" timeout="@@ALERTS_ALERTDELIVERYRECEIVER_TIMEOUT@@" payloadsize="@@ALERTS_ALERTDELIVERYRECEIVER_PAYLOADSIZE@@">
+	<SSLProfile ssltype="SSLClientProfile" name="CAChannelClientProfile"/>
+	</Backendinfo>
+ </Service>
